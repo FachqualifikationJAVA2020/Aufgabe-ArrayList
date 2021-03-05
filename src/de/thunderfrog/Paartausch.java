@@ -10,8 +10,8 @@ public class Paartausch {
     }
     public Paartausch(){}
 
-    // Methode zum Vertauschen der Paare
-    private void switchPair(ArrayList<Object> aList) {
+    // Methode zum Vertauschen der Paare, nur über den Konstruktor aufrufbar
+    private static void switchPair(ArrayList<Object> aList) {
 
         System.out.println("Ursprüngliche Liste:");
         System.out.println(aList+ "\n");
@@ -25,8 +25,10 @@ public class Paartausch {
             aList.set(i, aList.get(i+1));
             aList.set(i+1,temp);
         }
-
         System.out.println(aList);
+    }
 
+    public static void switchPairM(ArrayList<Object> aList){
+        switchPair(aList);
     }
 }
