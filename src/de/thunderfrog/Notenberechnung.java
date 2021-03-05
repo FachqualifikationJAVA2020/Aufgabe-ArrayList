@@ -3,7 +3,7 @@ package de.thunderfrog;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class Notenberechnung {
 
     public static void main(String[] args) {
 
