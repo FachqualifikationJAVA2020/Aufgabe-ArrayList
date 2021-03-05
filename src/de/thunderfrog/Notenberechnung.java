@@ -53,7 +53,7 @@ public class Notenberechnung {
 
                     // Notendurchschnitt berechnen
                     System.out.println("Der Notendurchschnitt beträgt: " + berechneDurchschnitt(gradeAverage));
-                    cancel = false;
+                    cancel = true;
                 }
                 if(command.toLowerCase().equals(exitCommand)){
                     System.out.println("Das Programm wird beendet");
